@@ -1,0 +1,8 @@
+version: '3'
+services:
+  deb1:
+    build:
+      context: .
+      dockerfile: BlankDebDockerfile
+    ports:
+      - "55555:22"
