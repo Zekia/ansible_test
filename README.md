@@ -5,7 +5,7 @@ Creates a docker container with the matching ansible inventory to easilly test a
 Ansible and Docker installed on localhost.
 
 ## Setup
-In order to build and setup the container, run: 
+In order to build and setup the container, first, place your a public key in the directory as id_rsa.pub then run: 
 ```
 docker-compose up -d
 ```
