@@ -5,4 +5,4 @@ services:
       context: .
       dockerfile: BlankDebDockerfile
     ports:
-      - "55555:22"
+      - "2022:22"
