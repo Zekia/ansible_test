@@ -1,0 +1,6 @@
+virtualmachines: #a group
+  hosts:
+    deb1:
+      ansible_host: localhost
+      ansible_port: 2022
+      ansible_user: sshuser
